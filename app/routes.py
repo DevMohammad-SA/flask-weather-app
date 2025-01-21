@@ -15,7 +15,7 @@ def index():
         if city:
             weather_status = WeatherApi(city)
             if not weather_status.get_weather():
-                flash("Unable to fetch weather data. Please try again.", "danger")
+                flash("Unable to fetch weather data. Please try again.", "error")
                 weather_status = None
     else:
         weather_status = None
