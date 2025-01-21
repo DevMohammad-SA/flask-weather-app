@@ -5,3 +5,4 @@ screenshots/
 *.png
 *.pyc
 .DS_Store
+.prettierignore

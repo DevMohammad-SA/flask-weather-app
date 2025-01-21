@@ -33,6 +33,17 @@
 </head>
 
 <body class="bg-gradient-to-br from-blue-400 to-indigo-600 min-h-screen py-12 px-4">
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="max-w-md mx-auto mb-8">
+        <div class="bg-red-500 text-white text-center p-4 rounded-xl shadow-lg"></div>
+        {% for message in messages %}
+        <div>{{message}}</div>
+        {% endfor %}
+    </div>
+    </div>
+    {% endif %}
+    {% endwith %}
     <!-- Search Form -->
     <div class="max-w-md mx-auto">
         <form action="/" method="post" class="mb-8">
