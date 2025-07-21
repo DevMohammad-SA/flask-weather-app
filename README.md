@@ -2,6 +2,9 @@
 
 Flask Weather App is a Flask-based web application that provides weather information for different locations.
 
+## Screenshots
+![Gh1iSFHWUAAUr9f](https://github.com/user-attachments/assets/f7e1724f-e22a-4585-9368-155343f385f0)
+
 ## Features
 
 - Current weather information
