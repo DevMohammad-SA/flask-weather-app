@@ -15,7 +15,7 @@ A Flask-based web app that displays current weather information for a given city
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.12+
 - (Optional but recommended) **uv** package manager: <https://docs.astral.sh/uv/>
 
 ---
@@ -33,7 +33,6 @@ This project uses **python-dotenv** to load environment variables from a `.env` 
 2. Update the values inside `.env`:
    - `ACCESS_KEY`: Weatherstack API key (required for weather requests)
    - `SECRET_KEY`: Flask secret key (required for sessions/flash messages)
-   - `DATABASE_URL`: optional (referenced in code)
 
 ---
 
