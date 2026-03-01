@@ -1,5 +1,4 @@
-from flask import (Blueprint, Flask, flash, redirect, render_template, request,
-                   url_for)
+from flask import Blueprint, flash, render_template, request
 
 from api_request import WeatherApi
 
